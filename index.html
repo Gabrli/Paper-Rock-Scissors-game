@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!--Link section-->
+        <link rel="stylesheet" href="index.css" type="text/css" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>PaperRockScisorss</title>
+    </head>
+    <body>
+        <!--Top container-->
+        <div class="static-container">
+            
+            <div class="web-box">
+                <img src="./img/logo.svg"/>
+                
+                <div class="score-box">
+                    <p class="score-text">SCORE</p>
+                    <p class="score">0</p>
+                </div>
+            </div>
+        </div>
+        <!--Main game board-->
+        <div class="game-board">
+            <div class="game-tiles-box">
+                <div id="paper">
+                    <img src="img/icon-paper.svg"/>
+                </div>
+                <div id="rock">
+                    <img src="img/icon-rock.svg"/>
+                </div>
+                <div id="scissors">
+                    <img src="img/icon-scissors.svg"/>
+                </div>
+            </div>
+        </div>
+
+        <!--Welcome screen-->
+        <div class="welcome-modal-container">
+            <div class="welcome-modal">
+                <header>
+                    <h3>Welcome in my game!</h3>
+                </header>
+                <div class="welcome-text">
+                    <p>Hi there! I made this game becouse I wanted give you funny.
+                        So... are you ready ? If yes, you have click in the button ! 
+                    </p>
+                </div>
+                <footer class="welcome-footer">
+                    <button class="btn-hidde">Play</button>
+                </footer>
+            </div>
+        </div>
+
+        <!--Modal results game-->
+        <div class="web-result-container">
+            <div class="results-modal">
+                <div class="result-place">
+                    <h3>You win</h3>
+                </div>
+                <footer class="results-footer">
+                    <button class="results-btn-hidde">Ok !</button>
+                </footer>
+            </div>
+        </div>
+         
+        
+
+
+       
+     <!--Script section-->
+     <script src="script/index.js" defer=""></script>
+     <script src="script/window.js" defer=""></script>
+     
+     
+    </body>
+</html>
