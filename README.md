@@ -5,9 +5,9 @@ https://paper-rock-scissors-game.gabrys564.repl.co/
 This project is it game were we can play with computer in the Paper, Rock, Scissors.
 
 # Technologies
--JavaScript
--HTML
--CSS
+- JavaScript
+- HTML
+- CSS
 
 # SCREENS
 
